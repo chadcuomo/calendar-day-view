@@ -2,8 +2,6 @@
 
 A modern calendar day view application built with React, TypeScript, and Vite. This application allows users to create, update, and delete events in a day calendar view.
 
-![Calendar Day View](https://via.placeholder.com/800x400?text=Calendar+Day+View)
-
 ## Features
 
 - 📅 Day view calendar with hour divisions
@@ -11,11 +9,10 @@ A modern calendar day view application built with React, TypeScript, and Vite. T
 - 🎨 Visual representation of events with proper positioning
 - ⏰ Time validation (end time must be after start time)
 - 🚨 Toast notifications for operation status
-- 🧪 Comprehensive test suite
 
 ## Tech Stack
 
-- **React 19** - UI library
+- **React 19** - Frontend library
 - **TypeScript** - Type safety
 - **Vite** - Build tool and development server
 - **TanStack Query (React Query)** - Data fetching and state management
@@ -24,7 +21,6 @@ A modern calendar day view application built with React, TypeScript, and Vite. T
 - **date-fns** - Date formatting
 - **Sonner** - Toast notifications
 - **Tailwind CSS** - Styling
-- **Jest & React Testing Library** - Testing
 
 ## Getting Started
 
@@ -38,7 +34,7 @@ A modern calendar day view application built with React, TypeScript, and Vite. T
 1. Clone the repository
 
 ```bash
-git clone https://github.com/your-username/calendar-day-view.git
+git clone https://github.com/chadcuomo/calendar-day-view.git
 cd calendar-day-view
 ```
 
@@ -64,19 +60,6 @@ pnpm dev
 
 4. Open [http://localhost:5173](http://localhost:5173) to view the app in your browser
 
-## Running Tests
-
-```bash
-# Run all tests
-npm test
-
-# Run tests in watch mode
-npm run test:watch
-
-# Generate test coverage report
-npm run test:coverage
-```
-
 ## Project Structure
 
 ```
@@ -92,7 +75,6 @@ calendar-day-view/
 │   │   ├── constants.ts     # Constants like hours
 │   │   ├── types.ts         # TypeScript interfaces
 │   │   └── utils.ts         # Helper functions
-│   ├── jest/                # Jest test files
 │   ├── App.tsx              # Main app component
 │   └── main.tsx             # Entry point
 ├── public/                  # Static assets
